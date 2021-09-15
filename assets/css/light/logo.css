@@ -1,0 +1,133 @@
+#Logo {
+    filter : invert(0%);
+}
+
+.free {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.nfree {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+}
+
+.wfree {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    background-color: #fcf8e3;
+    border-color: #fbeed5;
+}
+
+.spanFree {
+    background-color: #dff0d8;
+    border-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid;
+    min-width: 20px;
+    min-height: 20px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.spanWFree {
+    background-color: #fcf8e3;
+    border-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid;
+    min-width: 20px;
+    min-height: 20px;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.spanNFree {
+    background-color: #f2dede;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.6);
+    min-width: 20px;
+    min-height: 20px;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.bordered {
+    margin-top: 15px;
+    border: 1px solid;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: none;
+    border-radius: 0px;
+    background-color: lightgray;
+}
+
+.fillerHidden {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: none;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.range {
+    color: #b94a48;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    border-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    border-radius: 0px;
+}
+
+.range .panel-heading {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+h5 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.floatingbar {
+    position: absolute;
+    padding-top: 0px;
+    width: 1px;
+    max-width: 1px;
+    border: 1px dotted blue;
+    height: inherit;
+    z-index: 1000;
+}
+
+.clear {
+    clear: left;
+    display: block;
+}
+
+#optionsList {
+    min-width: 200px;
+}
+
+#optionsList li {
+    padding-left: 5px;
+}

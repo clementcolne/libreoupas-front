@@ -1,0 +1,134 @@
+#Logo {
+    filter : invert(100%);
+}
+
+.free {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color: white;
+    background-color: #62c462;
+    border-color: rgba(0, 0, 0, 0.6);
+}
+
+.nfree {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color: white;
+    background-color: #ee5f5b;
+    border-color: rgba(0, 0, 0, 0.6);
+}
+
+.wfree {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color: white;
+    background-color: #f89406;
+    border-color: rgba(0, 0, 0, 0.6);
+}
+
+.spanFree {
+    color: black;
+    background-color: #62c462;
+    border-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid;
+    min-width: 20px;
+    min-height: 20px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.spanWFree {
+    color: black;
+    background-color: #f89406;
+    border-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid;
+    min-width: 20px;
+    min-height: 20px;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.spanNFree {
+    color: black;
+    background-color: #ee5f5b;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.6);
+    min-width: 20px;
+    min-height: 20px;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.bordered {
+    margin-top: 15px;
+    border: 1px solid;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: none;
+    border-radius: 0px;
+}
+
+.fillerHidden {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: none;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.range {
+    color: #b94a48;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    border-color: rgba(0, 0, 0, 0.6);
+    background-color: white;
+    text-align: center;
+    border-radius: 0px;
+}
+
+.range .panel-heading {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+h5 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.floatingbar {
+    position: absolute;
+    padding-top: 0px;
+    width: 1px;
+    max-width: 1px;
+    border: 1px dotted red;
+    height: inherit;
+    z-index: 1000;
+}
+
+#optionsList {
+    min-width: 200px;
+}
+
+#optionsList li {
+    padding-left: 5px;
+}
